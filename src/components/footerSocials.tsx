@@ -4,8 +4,8 @@ import youtube from "../images/Navbar/youtube.png";
 
 const FooterSocials = () => {
     return(<nav className={`${styles.paddingX
-    } w-full flex items-center py-2 top-0 z-20 bg-white`}>
-    <div className='mt-2 w-full flex justify-center items-center max-w-7xl mx-auto'>
+    } w-full flex items-center lg:py-2  top-0 z-20 bg-white`}>
+    <div className=' w-full flex justify-center items-center max-w-7xl mx-auto'>
     <Link
         to='https://youtube.com/@vedanttewari3944'
         target='_blank'

@@ -9,15 +9,15 @@ const Header = () => {
             <main className={`${styles.paddingX} mx-auto ${styles.paddingY}flex flex-col justify-center items-center h-auto w-full`}>
             <div 
                 data-aos="fade-down"
-                className={`${styles.paddingY}`}>
+                className={``}>
                     <div className="flex flex-row ">
-                    <h1 className="lg:text-5xl text-2xl text-orange-500 font-bold  mb-12  ">&gt;</h1>
-            <h1 className="mx-4 lg:text-4xl text-2xl text-orange-500 font-bold  mb-12  ">At Digital Loop Markeitng, we specialize in helping businesses thrive in the digital landscape.  Our team of experienced professionals is dedicated to crafting effective and tailored digital  marketing strategies that drive growth and deliver tangible results. In this case study, we will  explore how our agency partnered with a client to overcome challenges, maximize their online  presence, and achieve outstanding success. </h1>
+                    <h1 className="lg:text-5xl text-2xl lg:flex hidden text-orange-500 font-bold  mb-12  ">&gt;</h1>
+            <h1 className="mx-4 lg:text-4xl text-xl text-orange-500 font-bold  mb-12  ">At Digital Loop Markeitng, we specialize in helping businesses thrive in the digital landscape.  Our team of experienced professionals is dedicated to crafting effective and tailored digital  marketing strategies that drive growth and deliver tangible results. In this case study, we will  explore how our agency partnered with a client to overcome challenges, maximize their online  presence, and achieve outstanding success. </h1>
             </div>
             <h1 className="lg:text-2xl text-xl text-black font-bold  mb-12  ">Client Overview: Our client, Streetstyle Corporation, is a leading e-commerce retailer  specializing in high-end fashion accessories. Despite their exceptional product quality,  streetstyle Corporation struggled to generate significant online visibility, reach their target  audience, and convert website visitors into customers. They approached our agency seeking a  comprehensive digital marketing solution to increase their brand awareness, drive website  traffic, and boost conversions. </h1>
            
                     <h2 className="lg:text-4xl text-2xl text-orange-500 font-bold text-left  py-4">Challenges Faced: </h2>
-                    <div className="flex flex-col justify-center items-center mx-24">
+                    <div className="flex flex-col justify-center items-center lg:mx-24 mx-7">
                     <ol className="lg:text-2xl text-lg font-semibold py-4 list-disc ">
                         <li className="py-4">
                         Limited Online Presence: Street style Corporation had a minimal online presence,  resulting in low organic search rankings and limited visibility across digital channels. 
@@ -51,8 +51,8 @@ const Header = () => {
                     </div>
                     
                     <h2 className="lg:text-5xl text-2xl text-orange-500 font-bold text-left underline py-4">Results Achieved: </h2>
-                    <div className="flex flex-col justify-center items-center mx-24">
-                    <ol className="lg:text-2xl text-lg font-semibold py-4 list-disc ">
+                    <div className="flex flex-col justify-center items-center lg:mx-24 mx-7">
+                    <ol className="lg:text-2xl text-lg font-semibold  list-disc ">
                         <li className="py-4" >
                         Increased Online Visibility: Through our strategic SEO initiatives, Street styles  Corporation's organic search rankings improved significantly, leading to a substantial  increase in online visibility and brand exposure. 
                         </li>

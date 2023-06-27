@@ -32,7 +32,7 @@ const Header = () => {
                     Engaging and valuable content is the backbone of any successful marketing strategy. Our team of skilled writers and content strategists will create captivating content that tells your brand story, educates your audience, and drives engagement.
                     </p>
                     <h2 className="lg:text-4xl text-2xl text-orange-500 font-bold text-left  py-4">Our Business Consultation Services:</h2>
-                    <div className="flex flex-col justify-center items-center mx-24">
+                    <div className="flex flex-col justify-center items-center lg:mx-24 mx-7">
                     <ol className="lg:text-2xl text-lg font-semibold py-4 list-decimal ">
                         <li className="py-4">
                         Marketing Strategy Development: We'll help you define a clear and compelling marketing strategy that sets the direction for your business. Our consultants will conduct thorough market research, identify your unique selling propositions, and develop a comprehensive plan to reach your target audience effectively.
@@ -56,7 +56,7 @@ const Header = () => {
                     </div>
                     
                     <h2 className="lg:text-5xl text-2xl text-orange-500 font-bold text-left underline py-4">Why Choose Us?</h2>
-                    <div className="flex flex-col justify-center items-center mx-24">
+                    <div className="flex flex-col justify-center items-center lg:mx-24 mx-7">
                     <ol className="lg:text-2xl text-lg font-semibold py-4 list-disc ">
                         <li className="py-4" >
                         Extensive Industry Experience: Our business consultants bring years of industry experience across diverse sectors. We've worked with businesses of all sizes, from startups to multinational corporations, delivering exceptional results and driving business growth.

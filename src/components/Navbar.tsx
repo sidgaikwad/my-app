@@ -64,10 +64,10 @@ const Navbar = () => {
            
           className='text-black text-[18px] lg:text-[32px] font-bold cursor-pointer flex justify-center items-center '>
               DIGITAL LOOP&nbsp;
-              <span className='sm:block hidden'>| MARKETING</span>
+              <span className='sm:block hidden '>MARKETING</span>
             </motion.p>
   
-          <ul className='list-none hidden md:flex flex-row gap-10 '>
+          <ul className='list-none hidden md:flex flex-row lg:gap-10 md:gap-4 '>
             {navLinks.map((nav) => (
               <motion.li
                 initial={{opacity: 0, y: -10}}
