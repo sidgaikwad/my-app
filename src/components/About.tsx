@@ -1,5 +1,4 @@
 import { styles } from "./styles";
-import banner from "../images/banner.jpg";
 import Logo from "../images/Navbar/Logo.png";
 import { motion } from "framer-motion";
 import { Link } from "react-router-dom";
