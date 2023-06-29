@@ -43,7 +43,7 @@ const TaskBased = () => {
                     className=" rounded-xl">
                     <div className="py-8 px-4 mx-auto max-w-screen-xl lg:py-16 lg:px-6">
                             <div className="underline decoration-orange-600 max-w-screen-md text-start mb-8 lg:mb-12">
-                                <h2 className="mb-4 text-6xl tracking-tight font-extrabold text-orange-500 ">Our Tasks offering</h2>
+                                <h2 className="mb-4 text-5xl tracking-tight font-extrabold text-orange-500 ">Our Tasks offering</h2>
                             </div>
                             <div className="space-y-8 lg:grid lg:grid-cols-3 sm:gap-6 xl:gap-10 lg:space-y-0">
                             <div
@@ -61,7 +61,7 @@ const TaskBased = () => {
                                                     Search Engine Optimization
                                                 </p>
                                             </div>
-                                            <div className="absolute inset-0 h-full w-full rounded-xl bg-black/80 px-12 text-center text-slate-200 [transform:rotateY(180deg)] [backface-visibility:hidden]">
+                                            <div className="absolute inset-0 h-full w-full rounded-xl bg-black/80 px-12 text-center text-slate-200 [transform:rotateY(180deg)] [backface-visibility:hidden] select-none">
                                                 <div className="flex min-h-full flex-col items-center justify-center">
                                                     <h1 className="lg:text-2xl text-lg font-bold">Article Placement l Guest appearance on podcast l Crisis management l TV appearance placement l Media Kit l Press Releasable l Pitch Deck l Event Management l Influencer Marketing l Community Relations.</h1>
                                                 </div>
@@ -81,8 +81,8 @@ const TaskBased = () => {
                                             <div className="text-gray-400 my-5 ">< IoDiamondSharp className="h-16 w-16"/></div>
                                                 <h1 className="lg:text-5xl text-4xl font-bold text-orange-500 mb-5 ">Public Relation Management</h1>
                                             </div>
-                                            <div className="absolute inset-0 h-full w-full rounded-xl bg-black/80 px-12 text-center text-slate-200 [transform:rotateY(180deg)] [backface-visibility:hidden]">
-                                                <div className="flex min-h-full flex-col items-center justify-center">
+                                            <div className="absolute inset-0 h-full w-full rounded-xl bg-black/80 px-12 text-center text-slate-200 [transform:rotateY(180deg)] [backface-visibility:hidden] select-none">
+                                                <div className="flex min-h-full flex-col items-center justify-center ">
                                                     <h1 className="lg:text-2xl text-lg font-bold">Article Placement l Guest appearance on podcast l Crisis management l TV appearance placement l Media Kit l Press Releasable l Pitch Deck l Event Management l Influencer Marketing l Community Relations.</h1>
                                                 </div>
                                             </div>
@@ -102,7 +102,7 @@ const TaskBased = () => {
                                             <div className="text-yellow-500 my-5 ">< IoDiamondSharp className="h-16 w-16"/></div>
                                                 <h1 className="lg:text-5xl text-4xl font-bold text-orange-500 mb-5 ">Social Media Management</h1>
                                             </div>
-                                            <div className="absolute inset-0 h-full w-full rounded-xl bg-black/80 px-12 text-center text-slate-200 [transform:rotateY(180deg)] [backface-visibility:hidden]">
+                                            <div className="absolute inset-0 h-full w-full rounded-xl bg-black/80 px-12 text-center text-slate-200 [transform:rotateY(180deg)] [backface-visibility:hidden] select-none">
                                                 <div className="flex min-h-full flex-col items-center justify-center">
                                                     <h1 className="lg:text-2xl text-lg font-bold">Posts l Reels l Stories l Community Management l Social Media Consultation. </h1>
 
