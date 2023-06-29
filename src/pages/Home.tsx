@@ -5,7 +5,6 @@ import Socials from "../components/Socials";
 import SocialMedia from "../components/SocialMedia";
 import Offering from "../components/offering";
 import TaskBased from "../components/TaskBased";
-import HireMarketingManager from "../components/HireMarketingManager";
 import Contact from "../components/contact";
 import Scheduling from "../components/Scheduling";
 import Banner2 from "../components/Banner2";

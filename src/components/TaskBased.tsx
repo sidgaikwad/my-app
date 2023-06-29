@@ -3,6 +3,9 @@ import taskBased from "../images/services/Task-based.png";
 import AOS from 'aos';
 import 'aos/dist/aos.css';
 import { useEffect } from 'react'
+import { IoDiamondSharp } from 'react-icons/io5';
+
+
 
 
 const TaskBased = () => {
@@ -10,13 +13,12 @@ const TaskBased = () => {
         AOS.init();
     }, [])
     return (
-        <div className={`${styles.paddingX} ${styles.paddingY} h-auto w-full container mx-auto`}>
-            <div className="flex flex-wrap items-center justify-center">
+       <div className={` ${styles.paddingY} ${styles.paddingX} mx-auto h-auto w-full   `}>
+            <div className="flex flex-wrap items-center justify-center ">
                 <div
-                    data-aos="fade-right"
-                    className={` py-4 w-[400px] h-auto mx-5 m-auto `}
+                    className={` py-4 w-[500px] h-auto  m-auto `}
                 >
-                    <img src={taskBased} alt='socialmedia' />
+                    <img src={taskBased} alt='socialmedia' className="shadow-xl shadow-black" />
                 </div>
 
                 <div
@@ -41,7 +43,7 @@ const TaskBased = () => {
                     className=" rounded-xl">
                     <div className="py-8 px-4 mx-auto max-w-screen-xl lg:py-16 lg:px-6">
                             <div className="underline decoration-orange-600 max-w-screen-md text-start mb-8 lg:mb-12">
-                                <h2 className="mb-4 text-6xl tracking-tight font-extrabold text-orange-500 ">#Our Tasks offering</h2>
+                                <h2 className="mb-4 text-6xl tracking-tight font-extrabold text-orange-500 ">Our Tasks offering</h2>
                             </div>
                             <div className="space-y-8 lg:grid lg:grid-cols-3 sm:gap-6 xl:gap-10 lg:space-y-0">
                             <div
@@ -53,6 +55,7 @@ const TaskBased = () => {
                                     <div className="group h-96 w-full [perspective:1000px]">
                                         <div className="relative h-full w-full rounded-xl transition-all bg-white duration-500 shadow-xl [transform-style:preserve-3d] group-hover:[transform:rotateY(180deg)]">
                                             <div className="h-full w-full rounded-xl object-cover shadow-xl shadow-black/40 flex flex-col items-center justify-center px-5">
+                                                <div className="text-blue-500 my-5 "><IoDiamondSharp className="h-16 w-16"/></div>
                                                 <h1 className="lg:text-5xl text-4xl font-bold text-orange-500 mb-5 ">SEO</h1>
                                                 <p className="lg:text-4xl text-3xl font-bold text-orange-500 ">
                                                     Search Engine Optimization
@@ -75,6 +78,7 @@ const TaskBased = () => {
                                     <div className="group h-96 w-full [perspective:1000px]">
                                         <div className="relative h-full w-full rounded-xl transition-all bg-white duration-500 shadow-xl [transform-style:preserve-3d] group-hover:[transform:rotateY(180deg)]">
                                             <div className="h-full w-full rounded-xl object-cover shadow-xl shadow-black/40 flex flex-col items-center justify-center px-5">
+                                            <div className="text-gray-400 my-5 ">< IoDiamondSharp className="h-16 w-16"/></div>
                                                 <h1 className="lg:text-5xl text-4xl font-bold text-orange-500 mb-5 ">Public Relation Management</h1>
                                             </div>
                                             <div className="absolute inset-0 h-full w-full rounded-xl bg-black/80 px-12 text-center text-slate-200 [transform:rotateY(180deg)] [backface-visibility:hidden]">
@@ -95,6 +99,7 @@ const TaskBased = () => {
                                     <div className="group h-96 w-full [perspective:1000px]">
                                         <div className="relative h-full w-full rounded-xl transition-all bg-white duration-500 shadow-xl [transform-style:preserve-3d] group-hover:[transform:rotateY(180deg)]">
                                             <div className="h-full w-full rounded-xl object-cover shadow-xl shadow-black/40 flex flex-col items-center justify-center px-10">
+                                            <div className="text-yellow-500 my-5 ">< IoDiamondSharp className="h-16 w-16"/></div>
                                                 <h1 className="lg:text-5xl text-4xl font-bold text-orange-500 mb-5 ">Social Media Management</h1>
                                             </div>
                                             <div className="absolute inset-0 h-full w-full rounded-xl bg-black/80 px-12 text-center text-slate-200 [transform:rotateY(180deg)] [backface-visibility:hidden]">

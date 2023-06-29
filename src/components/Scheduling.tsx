@@ -13,10 +13,10 @@ const Scheduling = () => {
                     data-aos-easing="ease-in-sine"
                     className={`${styles.paddingY}  `}>
                     <h1 className="text-3xl sm:text-4xl text-orange-600 font-extrabold ">
-                        Complimentary 30 minutes 1 on 1 Digital <br /> Marketing Strategy with Stephanie Perrault.
+                        Complimentary 30 minutes 1 on 1 Digital <br /> Marketing Strategy with Digital Loop Marketing.
                     </h1>
-                    <p className="text-normal text-lg sm:text-xl font-medium text-gray-600 dark:text-gray-400 mt-2">
-                        AssistaNova can help you grow and scale your
+                    <p className="text-normal text-lg sm:text-xl font-medium text-black mt-2">
+                        DigitalLoopMarketing can help you grow and scale your
                         business during times of economic<br /> uncertainty.
                     </p>
 
@@ -62,13 +62,14 @@ const Scheduling = () => {
                 </div>
 
                 <div
-                    className={` py-4 w-[400px] h-auto  m-auto `}
+                    className={` py-4 w-[500px] h-auto  m-auto `}
                 >
                     <img
                         data-aos="fade-up"
                         data-aos-offset="100"
                         data-aos-easing="ease-in-sine"
-                        src={socialmedia} alt='socialmedia' />
+                        src={socialmedia} alt='socialmedia' 
+                        className="shadow-xl shadow-black"/>
                 </div>
                 
                 

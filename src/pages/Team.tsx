@@ -15,11 +15,13 @@ const Team = () => {
         <>
           <Socials/>
           <Navbar/>  
-          <MobileSocials/> 
+          <MobileSocials/>
+          <div className={`bg-[url('./assets/bg3.jpg')] bg-cover bg-no-repeat bg-center`}> 
           <TeamMembers/>
           <Banner2/>
           <Scheduling/>
           <Contact/>
+          </div>
           <FooterSocials/>
           <Footer/>
         </>

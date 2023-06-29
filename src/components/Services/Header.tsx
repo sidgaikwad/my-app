@@ -8,7 +8,7 @@ const Header = () => {
         AOS.init();
       }, [])
     return(
-        <section className="bg-white">
+        <section className="">
             <main className={`${styles.paddingX} mx-auto ${styles.paddingY}flex flex-col justify-center items-center h-auto w-full`}>
             <div 
                 data-aos="fade-down"

@@ -74,7 +74,7 @@ const About = () => {
           transition={{ duration: 1, delay: 0.5 }}
           className={`py-4   mx-auto`}
         >
-          <img src={Logo} alt='services' className=" mx-auto lg:w-[400px] lg:h-[400px] h-[250px] w-[250px] shadow-xl shadow-black" />
+          <img src={Logo} alt='services' className=" mx-auto lg:w-[400px] lg:h-[400px] h-[240px] w-[240px] shadow-lg shadow-black" />
         </motion.div>
       </div>
 

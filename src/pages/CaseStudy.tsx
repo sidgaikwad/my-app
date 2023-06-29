@@ -16,7 +16,7 @@ const CaseStudy = () => {
           <Navbar/>  
           <MobileSocials/> 
           <div className='relative z-0 bg-primary'>
-          <div className={`bg-[url('./assets/bg1.jpg')] bg-cover bg-no-repeat bg-center`}>
+          <div className={`bg-[url('./assets/bg3.jpg')] bg-cover bg-no-repeat bg-center`}>
           <Header/>
           <Scheduling/>
           <Contact/>

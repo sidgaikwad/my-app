@@ -17,7 +17,7 @@ const SocialMedia = () => {
                 >
                     <img
                 data-aos="fade-right"
-                    src={socialmedia} alt='socialmedia' />
+                    src={socialmedia} alt='socialmedia' className="shadow-xl shadow-black" />
                 </div>
                 
                 <div 

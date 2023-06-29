@@ -17,11 +17,15 @@ const Services = () => {
           <Socials/>
           <Navbar/>  
           <MobileSocials/> 
+          <div className={`bg-[url('./assets/bg3.jpg')] bg-cover bg-no-repeat bg-center`}>
           <Header/>
           <Offering/>
+          </div>
           <SocialMedia/>
+          <div className={`bg-[url('./assets/bg3.jpg')] bg-cover bg-no-repeat bg-center`}>
           <Scheduling/>
           <Contact/>
+          </div>
           <FooterSocials/>
           <Footer/>
         </>

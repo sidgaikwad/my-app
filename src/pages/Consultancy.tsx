@@ -14,10 +14,12 @@ const Consultancy = () => {
         <>
           <Socials/>
           <Navbar/>  
+          <div className={`bg-[url('./assets/bg3.jpg')] bg-cover bg-no-repeat bg-center`}>
           <MobileSocials/> 
           <Header/>
           <Scheduling/>
           <Contact/>
+          </div>
           <FooterSocials/>
           <Footer/>
         </>
