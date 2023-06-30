@@ -1,6 +1,5 @@
 import { styles } from "./styles";
 import socialmedia from "../images/services/SocialMediaDevelopment.jpg";
-import { Link } from "react-router-dom";
 import AOS from 'aos';
 import 'aos/dist/aos.css';
 import {useEffect} from 'react'

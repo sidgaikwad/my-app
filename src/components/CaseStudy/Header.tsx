@@ -15,6 +15,8 @@ const Header = () => {
             <h1 className="mx-4 lg:text-4xl text-xl text-orange-500 font-bold  mb-12  ">At Digital Loop Markeitng, we specialize in helping businesses thrive in the digital landscape.  Our team of experienced professionals is dedicated to crafting effective and tailored digital  marketing strategies that drive growth and deliver tangible results. In this case study, we will  explore how our agency partnered with a client to overcome challenges, maximize their online  presence, and achieve outstanding success. </h1>
             </div>
             <h1 className="lg:text-2xl text-xl text-black font-bold  mb-12  ">Client Overview: Our client, Streetstyle Corporation, is a leading e-commerce retailer  specializing in high-end fashion accessories. Despite their exceptional product quality,  streetstyle Corporation struggled to generate significant online visibility, reach their target  audience, and convert website visitors into customers. They approached our agency seeking a  comprehensive digital marketing solution to increase their brand awareness, drive website  traffic, and boost conversions. </h1>
+            
+            <img src={img1} alt="" className="lg:h-[300px] lg:w-[750px] h-[150px] w-[375px] shadow-xl shadow-black my-4 mx-auto" />
            
                     <h2 className="lg:text-4xl text-2xl text-orange-500 font-bold text-left  py-4">Challenges Faced: </h2>
                     <div className="flex flex-col justify-center items-center lg:mx-24 mx-7">
@@ -50,6 +52,8 @@ const Header = () => {
                     </ol>
                     </div>
                     
+                    <img src={img2} alt="" className="lg:h-[300px] lg:w-[300px] h-[150px] w-[150px] shadow-xl shadow-black my-5 mx-auto"/>
+                    
                     <h2 className="lg:text-5xl text-2xl text-orange-500 font-bold text-left underline py-4">Results Achieved: </h2>
                     <div className="flex flex-col justify-center items-center lg:mx-24 mx-7">
                     <ol className="lg:text-2xl text-lg font-semibold  list-disc ">
@@ -67,15 +71,11 @@ const Header = () => {
                         </li>
                     </ol>
                     </div>
+                    <img src={img3} alt="" className="lg:h-[300px] lg:w-[300px] h-[250px] w-[250px] shadow-xl shadow-black my-5 mx-auto"/>
                     <p className="lg:text-2xl text-xl text-black font-bold  mb-12  ">Conclusion: Through our comprehensive and tailored digital marketing approach, We  successfully transformed Street styles’s Corporation's online presence, driving growth, and  achieving exceptional results. Our expertise in SEO, PPC advertising, content marketing, and  conversion optimization allowed us to overcome the client's challenges and deliver a  measurable return on investment. Contact our agency today to discover how we can help your  business thrive in the digital landscape. </p>
                     <p className="lg:text-2xl text-xl text-black font-bold  mb-12  ">Have worked with over 50 + Clients in e-commerce </p>
                     <p className="lg:text-2xl text-xl text-black font-bold  mb-12  ">Engagement 10 million + </p>
                     <p className="lg:text-2xl text-xl text-black font-bold  mb-12  ">Managed social media accounts of 45 + brands</p>
-                    </div>
-                    <div className="grid lg:grid-cols-3 sm:grid-cols-1 md:grid-cols-2 gap-6">
-                        <img src={img1} alt="" className="lg:h-[300px] lg:w-[750px] h-[150px] w-[375px] shadow-xl shadow-black" />
-                        <img src={img2} alt="" className="lg:h-[300px] lg:w-[300px] h-[150px] w-[150px] shadow-xl shadow-black"/>
-                        <img src={img3} alt="" className="lg:h-[300px] lg:w-[300px] h-[250px] w-[250px] shadow-xl shadow-black"/>
                     </div>
             </main>
         </section>

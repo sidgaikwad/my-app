@@ -62,9 +62,17 @@ const Navbar = () => {
           animate={{opacity:1, y: 0}}
           transition={{duration: 0.8, delay: 0.2}}
            
-          className='text-black text-[18px] lg:text-[32px] font-bold cursor-pointer flex justify-center items-center '>
+          className='text-black text-[18px] lg:text-[32px] font-bold cursor-pointer justify-center items-center md:flex hidden lg:flex '>
               DIGITAL LOOP&nbsp;
-              <span className='lg:block hidden '>MARKETING</span>
+              <span className='lg:block  hidden '>MARKETING</span>
+            </motion.p>
+            <motion.p
+          initial={{opacity: 0, y: -10}}
+          animate={{opacity:1, y: 0}}
+          transition={{duration: 0.8, delay: 0.2}}
+           
+          className='text-black text-[14px]  font-bold cursor-pointer justify-center items-center lg:hidden md:hidden sm:block '>
+              DIGITAL LOOP MARKETING
             </motion.p>
   
           <ul className='list-none hidden md:flex flex-row lg:gap-10 md:gap-4 '>
