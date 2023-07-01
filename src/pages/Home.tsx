@@ -10,6 +10,7 @@ import Scheduling from "../components/Scheduling";
 import Banner2 from "../components/Banner2";
 import FooterSocials from "../components/footerSocials";
 import Footer from "../components/Footer";
+import Contact1 from "../components/Contact1";
 
 
 const Home = () => {
@@ -34,6 +35,7 @@ const Home = () => {
           <div className={`bg-[url('./assets/bg3.jpg')] w-[1024] h-auto bg-cover bg-no-repeat bg-center `}>
           <Scheduling/>
           <Contact/>
+          <Contact1/>
           </div>
           <FooterSocials/>
           <Footer/>

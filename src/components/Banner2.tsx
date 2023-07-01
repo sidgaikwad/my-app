@@ -1,7 +1,6 @@
 import {useEffect} from 'react'
 import AOS from 'aos';
 import 'aos/dist/aos.css';
-import box from '../images/Banner2/box.png'
 const Banner2 = () => {
     useEffect(() => {
         AOS.init();
@@ -14,7 +13,7 @@ const Banner2 = () => {
             Work on Your Terms
           </p>
       </div>
-  <div 
+  {/* <div 
   data-aos="zoom-in-up"
   data-aos-offset="100"
   data-aos-easing="ease-in-sine"
@@ -57,7 +56,7 @@ const Banner2 = () => {
               
           </div>
       </div>
-  </div>
+  </div> */}
 </section>
     );
 }

@@ -55,7 +55,7 @@ const Offering = () => {
                                         <img className="rounded-t-lg w-[1024px] lg:h-[225px] h-[175px]" src={SOcialMediaAccount} alt="" />
                                     </Link>
                                     <div>
-                                        <Link to="#" className="block max-w-sm p-6  rounded-b-lg shadow bg-orange-500 border-orange-700 ">
+                                        <Link to="/Booking" className="block max-w-sm p-6  rounded-b-lg shadow bg-orange-500 border-orange-700 ">
                                             <h5 className="mb-2 text-2xl font-bold tracking-tight text-black underline">Account Setup and Optimization:</h5>
                                             <p className="font-normal text-gray-700 dark:text-white">We'll create or optimize your social media accounts across various platforms,ensuring they are fully optimized with compelling visuals, engaging descriptions, and relevant keywords. This will help attract your target audience and establish a cohesive brand presence.</p>
                                         </Link>
@@ -66,11 +66,11 @@ const Offering = () => {
                                     whileHover={{ scale: 1.1 }}
                                     whileTap={{ scale: 0.9 }}
                                     className="flex flex-col  mx-auto max-w-sm text-center text-orange-500 bg-orange-100 rounded-lg border border-orange-600 shadow-2xl  shadow-black  ">
-                                    <Link to="#">
+                                    <Link to="/Booking">
                                         <img className="rounded-t-lg w-[1024px] lg:h-[225px] h-[175px]" src={ContentCreation} alt="" />
                                     </Link>
                                     <div>
-                                        <Link to="#" className="block max-w-sm p-6  rounded-b-lg shadow bg-orange-500 border-orange-700 ">
+                                        <Link to="/Booking" className="block max-w-sm p-6  rounded-b-lg shadow bg-orange-500 border-orange-700 ">
                                             <h5 className="mb-2 text-2xl font-bold tracking-tight text-black underline ">Content Creation and <br />Curation:</h5>
                                             <p className="font-normal text-gray-700 dark:text-white">Our team of skilled content creators will develop high-quality, engaging content that resonates with your audience. From eye-catching graphics to informative videos and captivating copy, we'll craft a variety of content types to keep your social media profiles active and vibrant.</p>
                                         </Link>
@@ -81,11 +81,11 @@ const Offering = () => {
                                     whileHover={{ scale: 1.1 }}
                                     whileTap={{ scale: 0.9 }}
                                     className="flex flex-col  mx-auto max-w-sm text-center text-orange-500 bg-orange-100 rounded-lg border border-orange-600 shadow-2xl  shadow-black ">
-                                    <Link to="#">
+                                    <Link to="/Booking">
                                         <img className="rounded-t-lg  w-[1024px] lg:h-[225px] h-[175px]" src={SocialMediaManagement} alt="" />
                                     </Link>
                                     <div>
-                                        <Link to="#" className="block max-w-sm p-6  rounded-b-lg shadow bg-orange-500 border-orange-700 ">
+                                        <Link to="/Booking" className="block max-w-sm p-6  rounded-b-lg shadow bg-orange-500 border-orange-700 ">
                                             <h5 className="mb-2 text-2xl font-bold tracking-tight text-black underline ">Social Media <br />Management:</h5>
                                             <p className="font-normal text-gray-700 dark:text-white">We'll handle the day-to-day management of your social media accounts, including content scheduling, community engagement, and reputation management. Our dedicated team will monitor comments, messages, and reviews, ensuring timely responses and maintaining a positive online presence.</p>
                                         </Link>
@@ -96,11 +96,11 @@ const Offering = () => {
                                     whileHover={{ scale: 1.1 }}
                                     whileTap={{ scale: 0.9 }}
                                     className="flex flex-col  mx-auto max-w-sm text-center text-orange-500 bg-orange-100 rounded-lg border border-orange-600 shadow-2xl  shadow-black  ">
-                                    <Link to="#">
+                                    <Link to="/Booking">
                                         <img className="rounded-t-lg  w-[1024px] lg:h-[225px] h-[175px]" src={PerformanceManagementSystem} alt="" />
                                     </Link>
                                     <div>
-                                        <Link to="#" className="block max-w-sm p-6  rounded-b-lg shadow bg-orange-500 border-orange-700 ">
+                                        <Link to="/Booking" className="block max-w-sm p-6  rounded-b-lg shadow bg-orange-500 border-orange-700 ">
                                             <h5 className="mb-2 text-2xl font-bold tracking-tight text-black underline
                                         ">Performance Tracking and Analytics:</h5>
                                             <p className="font-normal text-gray-700 dark:text-white">We'll provide detailed reports on the performance of your social media campaigns, including key metrics such as reach, engagement, website traffic, and conversions. These insights will help us refine our strategies and continuously optimize your social media presence for maximum impact.</p>
@@ -111,11 +111,11 @@ const Offering = () => {
                                     whileHover={{ scale: 1.1 }}
                                     whileTap={{ scale: 0.9 }}
                                     className="flex flex-col  mx-auto max-w-sm text-center text-orange-500 bg-orange-100 rounded-lg border border-orange-600 shadow-2xl  shadow-black  ">
-                                    <Link to="#">
+                                    <Link to="/Booking">
                                         <img className="rounded-t-lg  w-[1024px] lg:h-[225px] h-[175px]" src={CampaignManagement} alt="" />
                                     </Link>
                                     <div>
-                                        <Link to="#" className="block max-w-sm p-6  rounded-b-lg shadow bg-orange-500 border-orange-700 ">
+                                        <Link to="/Booking" className="block max-w-sm p-6  rounded-b-lg shadow bg-orange-500 border-orange-700 ">
                                             <h5 className="mb-2 text-2xl font-bold tracking-tight text-black underline ">Ad Campaign <br />Management:</h5>
                                             <p className="font-normal text-gray-700 dark:text-white">As part of our package, we'll create and manage targeted social media ad campaigns to reach a wider audience, generate leads, and drive conversions. We'll conduct thorough audience research, develop compelling ad creatives, and optimize campaigns to maximize your return on investment.</p>
                                         </Link>
@@ -126,11 +126,11 @@ const Offering = () => {
                                     whileHover={{ scale: 1.1 }}
                                     whileTap={{ scale: 0.9 }}
                                     className="flex flex-col  mx-auto max-w-sm text-center text-orange-500 bg-orange-100 rounded-lg border border-orange-600 shadow-2xl  shadow-black  ">
-                                    <Link to="#">
+                                    <Link to="/Booking">
                                         <img className="rounded-t-lg  w-[1024px] lg:h-[225px] h-[175px]" src={BrandConsultancy} alt="" />
                                     </Link>
                                     <div>
-                                        <Link to="#" className="block max-w-sm p-6  rounded-b-lg shadow bg-orange-500 border-orange-700 ">
+                                        <Link to="/Booking" className="block max-w-sm p-6  rounded-b-lg shadow bg-orange-500 border-orange-700 ">
                                             <h5 className="mb-2 text-2xl font-bold tracking-tight text-black underline">Buisness and Brand Consultation:</h5>
                                             <p className="font-normal text-gray-700 dark:text-white">Our team is committed to your success. We'll provide ongoing support, guidance, and consultation to keep you informed about industry trends, recommend strategies for growth, and ensure your social media presence stays ahead of the curve.</p>
                                         </Link>
