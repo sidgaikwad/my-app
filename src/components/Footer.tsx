@@ -17,15 +17,23 @@ const Footer = () => {
                             <span className="self-center text-3xl font-semibold whitespace-nowrap text-white">DigitalLoop</span>
                         </Link>
                     </div>
-                    <div className="grid grid-cols-2 gap-8 sm:gap-6 sm:grid-cols-3">
+                    <div className="grid  gap-8 sm:gap-6 grid-cols-2">
                         <div>
                             <h2 className="mb-6 text-sm font-semibold text-gray-900 uppercase dark:text-white">Resources</h2>
                             <ul className="text-gray-600 dark:text-gray-400 font-medium">
                                 <li className="mb-4">
-                                    <Link to="/About" className="hover:underline">About</Link>
+                                    <Link to="/Services" className="hover:underline"
+                                     onClick={() => {
+                                        window.scrollTo(0, 0);
+                                    }}
+                                    >Services</Link>
                                 </li>
                                 <li>
-                                    <Link to="/Services" className="hover:underline">Services</Link>
+                                    <Link to="/Casestudy" className="hover:underline"
+                                     onClick={() => {
+                                        window.scrollTo(0, 0);
+                                    }}
+                                    >Casestudy</Link>
                                 </li>
                             </ul>
                         </div>
@@ -43,17 +51,6 @@ const Footer = () => {
                                         rel="noreferrer noopener"
                                         target="_blank"
                                         className="hover:underline">Youtube</Link>
-                                </li>
-                            </ul>
-                        </div>
-                        <div>
-                            <h2 className="mb-6 text-sm font-semibold text-gray-900 uppercase dark:text-white">Legal</h2>
-                            <ul className="text-gray-600 dark:text-gray-400 font-medium">
-                                <li className="mb-4">
-                                    <Link to="#" className="hover:underline">Privacy Policy</Link>
-                                </li>
-                                <li>
-                                    <Link to="#" className="hover:underline">Terms &amp; Conditions</Link>
                                 </li>
                             </ul>
                         </div>
