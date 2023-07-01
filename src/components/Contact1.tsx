@@ -33,11 +33,17 @@ const Contact1: React.FC = () => {
     setLoading(true);
 
     emailjs
-      .sendForm(
-        "service_lxp0w0t",
-        "template_61qm6hh",
-        formRef.current!,
-        "2FFcbqUG923LjfNUN"
+      .send(
+        "YOUR_SERVICE_ID",
+        "YOUR_TEMPLATE_ID",
+        {
+          from_name: form.name,
+          to_name: "Siddharth Gaikwad",
+          from_email: form.email,
+          to_email: "gaikwadsiddharth039@gmail.com",
+          message: form.message,
+        },
+        "YOUR_USER_ID"
       )
       .then(
         (response: EmailJSResponseStatus) => {
