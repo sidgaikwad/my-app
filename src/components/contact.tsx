@@ -76,8 +76,8 @@ const Contact: React.FC = () => {
         className=" bg-transparent">
         <div className="lg:mx-80 h-1 w-80 font-bold bg-gradient-to-l from-orange-500 rounded"></div>
         <div className="py-8 lg:py-16 px-4 mx-auto max-w-screen-md">
-            <h2 className="mb-4 text-6xl tracking-tight font-extrabold text-center  text-orange-500">Contact Us</h2>
-            <p className="mb-8 lg:mb-16 font-medium text-center text-black text-2xl">Got a technical issue? Want to send feedback about a beta feature? Need details about our Business plan? Let us know.</p>
+            <h2 className="mb-4 text-6xl tracking-tight font-extrabold text-center  text-orange-500">Contact Us:</h2>
+            <p className="mb-8 lg:mb-16 font-medium text-center text-black text-2xl">Having trouble marketing your brand?having trouble creating content?having trouble reaching your target market?</p>
 
       <form
         ref={formRef}
@@ -96,13 +96,13 @@ const Contact: React.FC = () => {
           />
         </label>
         <label className="flex flex-col">
-          <span className="text-black  font-bold mb-4">Your email</span>
+          <span className="text-black  font-bold mb-4">Your Email</span>
           <input
             type="email"
             name="email"
             value={form.email}
             onChange={handleChange}
-            placeholder="What's your web address?"
+            placeholder="What's your Email address?"
             className="block p-3 w-full border  text-gray-900 text-sm rounded-lg focus:ring-primary-500 focus:border-primary-500  bg-white border-gray-600 placeholder-black  focus:ring-secondary-500  shadow-lg shadow-black"
             required
           />

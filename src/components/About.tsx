@@ -39,7 +39,7 @@ const About = () => {
             <h1 className={`${styles.sectionHeadText} text-black`}>
               Welocome to
               <br />
-              <span className='text-orange-500'>DigitalLoop Marketing</span>
+              <span className='text-orange-500'>Digital Loop Marketing</span>
             </h1>
             <p className={`${styles.heroSubText} mt-2 text-black`}>
               your trusted partner for comprehensive digital <br className='sm:block hidden' />
