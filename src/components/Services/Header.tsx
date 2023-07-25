@@ -13,8 +13,8 @@ const Header = () => {
             <div 
                 data-aos="fade-down"
                 className={`${styles.paddingY}`}>
-            <h1 className="lg:text-6xl text-2xl text-orange-500 font-bold text-center mb-12">Have your hastle-free marketing experience</h1>
-                    <h2 className="lg:text-5xl text-2xl text-orange-500 font-bold text-center py-4">With Us</h2>
+            <h1 className="lg:text-6xl text-2xl text-orange-500 font-bold text-center mb-12 border-black border-[6px] p-4">Have your hastle-free marketing experience With Us</h1>
+                    {/* <h2 className="lg:text-5xl text-2xl text-orange-500 font-bold text-center py-4"></h2> */}
                     <p className="lg:text-3xl text-lg font-semibold py-4 ">
                     We'll help you harness the power of social media platforms to connect with your audience, build brand loyalty, and drive meaningful interactions. Our social media experts will develop and execute  a customized strategy that aligns with your business objectives.
                     </p>

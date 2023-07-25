@@ -13,7 +13,7 @@ const Header = () => {
             <div 
                 data-aos="fade-down"
                 className={`${styles.paddingY}`}>
-            <h1 className="lg:text-4xl text-2xl text-orange-500 font-bold  mb-12 text-center ">We understand that running a business is no easy task, and that's why we're here <br /> to provide expert guidance and support to help you navigate the <br /> complex world of marketing and achieve your business goals.</h1>
+            <h1 className="lg:text-4xl text-2xl text-orange-500 font-bold  mb-12 text-left border-black border-[6px] p-4">We understand that running a business is no easy task, and that's why we're here <br /> to provide expert guidance and support to help you navigate the  complex world of marketing and achieve your business goals.</h1>
             <h1 className="lg:text-4xl text-2xl text-orange-500 font-bold  mb-12">
             Our Approach:
             </h1>

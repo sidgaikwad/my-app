@@ -58,7 +58,7 @@ const TaskBased = () => {
                                                 <div className="text-blue-500 my-5 "><IoDiamondSharp className="h-16 w-16"/></div>
                                                 <h1 className="lg:text-4xl text-3xl font-bold text-orange-500 mb-5 ">SOCIAL MEDIA MANAGEMENT</h1>
                                             </div>
-                                            <div className="absolute inset-0 h-full w-full rounded-xl bg-black/80 px-12 text-center text-slate-200 [transform:rotateY(180deg)] [backface-visibility:hidden] select-none">
+                                            <div className="absolute inset-0 h-full w-full rounded-xl bg-black px-12 text-center text-slate-200 [transform:rotateY(180deg)] [backface-visibility:hidden] select-none">
                                                 <div className="flex min-h-full flex-col items-center justify-center">
                                                     <h1 className="lg:text-2xl text-lg font-bold"> post | reels | stories | community management | social media consultation</h1>
                                                 </div>
@@ -78,7 +78,7 @@ const TaskBased = () => {
                                             <div className="text-gray-400 my-5 ">< IoDiamondSharp className="h-16 w-16"/></div>
                                                 <h1 className="lg:text-4xl text-3xl font-bold text-orange-500 mb-5 ">SOCIAL MEDIA MARKETING </h1>
                                             </div>
-                                            <div className="absolute inset-0 h-full w-full rounded-xl bg-black/80 px-12 text-center text-slate-200 [transform:rotateY(180deg)] [backface-visibility:hidden] select-none">
+                                            <div className="absolute inset-0 h-full w-full rounded-xl bg-black px-12 text-center text-slate-200 [transform:rotateY(180deg)] [backface-visibility:hidden] select-none">
                                                 <div className="flex min-h-full flex-col items-center justify-center ">
                                                     <h1 className="lg:text-2xl text-lg font-bold">Facebook ads | Instagram ads | google ads | LinkedIn ads</h1>
                                                 </div>
@@ -99,7 +99,7 @@ const TaskBased = () => {
                                             <div className="text-yellow-500 my-5 ">< IoDiamondSharp className="h-16 w-16"/></div>
                                                 <h1 className="lg:text-4xl text-3xl font-bold text-orange-500 mb-5 ">BUSINESS CONSULTATION</h1>
                                             </div>
-                                            <div className="absolute inset-0 h-full w-full rounded-xl bg-black/80 px-12 text-center text-slate-200 [transform:rotateY(180deg)] [backface-visibility:hidden] select-none">
+                                            <div className="absolute inset-0 h-full w-full rounded-xl bg-black px-12 text-center text-slate-200 [transform:rotateY(180deg)] [backface-visibility:hidden] select-none">
                                                 <div className="flex min-h-full flex-col items-center justify-center">
                                                     <h1 className="lg:text-2xl text-lg font-bold">Daily 1 hour consultation | industry expert consultation | 24/7 Text access with industry experts </h1>
 

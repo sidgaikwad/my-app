@@ -10,10 +10,7 @@ const Header = () => {
             <div 
                 data-aos="fade-down"
                 className={``}>
-                    <div className="flex flex-row ">
-                    <h1 className="lg:text-5xl text-2xl lg:flex hidden text-orange-500 font-bold  mb-12  ">&gt;</h1>
-            <h1 className="mx-4 lg:text-4xl text-xl text-orange-500 font-semibold  mb-12  ">At Digital Loop Markeitng, we specialize in helping businesses thrive in the digital landscape.  Our team of experienced professionals is dedicated to crafting effective and tailored digital  marketing strategies that drive growth and deliver tangible results. In this case study, we will  explore how our agency partnered with a client to overcome challenges, maximize their online  presence, and achieve outstanding success. </h1>
-            </div>
+            <h1 className="mx-4 lg:text-4xl text-xl text-orange-500 font-semibold  mb-12  border-black border-[6px] p-4">At Digital Loop Markeitng, we specialize in helping businesses thrive in the digital landscape.  Our team of experienced professionals is dedicated to crafting effective and tailored digital  marketing strategies that drive growth and deliver tangible results. </h1>
             <h1 className="lg:text-2xl text-xl text-black font-light  mb-12  ">
             <b className="text-2xl text-black underline font-semibold mr-4">Client Overview:</b>
                  Our client, Streetstyle Corporation, is a leading e-commerce retailer  specializing in high-end fashion accessories. Despite their exceptional product quality,  streetstyle Corporation struggled to generate significant online visibility, reach their target  audience, and convert website visitors into customers. They approached our agency seeking a  comprehensive digital marketing solution to increase their brand awareness, drive website  traffic, and boost conversions. </h1>
